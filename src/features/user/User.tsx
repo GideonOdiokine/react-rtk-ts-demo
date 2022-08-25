@@ -25,3 +25,7 @@ const User = () => {
 };
 
 export default User;
+interface ImStatelessProps {
+	foo: string;
+	bar: number;
+}
